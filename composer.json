@@ -1,0 +1,45 @@
+{
+  "name": "badrutdinovrr/yii2-jui-timepicker",
+  "description": "Yii 2 jQuery UI Datetime/TimePicker Widget",
+  "keywords": [
+    "yii2",
+    "jquery",
+    "jquery-ui",
+    "datetime",
+    "time",
+    "picker",
+    "timepicker"
+  ],
+  "homepage": "http://trentrichardson.com/examples/timepicker/",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "ivan.chkv@gmail.com"
+    },
+    {
+      "name": "Rustam Badrutdinov",
+      "email": "delightalmighty@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "badrutdinovrr/yii2-jui-datepicker": "2.*",
+    "bower-asset/jqueryui-timepicker-addon": "1.6.*"
+  },
+  "require-dev": {
+    "ivan-chkv/yii2-phpunit": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\jui\\timepicker\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
